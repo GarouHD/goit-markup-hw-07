@@ -1,0 +1,33 @@
+@import "../utils/vars";
+
+.customer {
+  display: flex;
+
+  &__link {
+    border: 1px solid $social-icon-fill;
+    border-radius: 4px;
+    padding: 16px 32px;
+    display: block;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+      border: 1px solid $text-color-accent;
+      outline: none;
+    }
+
+    &:hover .customer__icon,
+    &:focus .customer__icon {
+      fill: $text-color-accent;
+    }
+  }
+
+  &__li:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  &__icon {
+    fill: $social-icon-fill;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}

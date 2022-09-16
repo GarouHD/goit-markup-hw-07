@@ -1,0 +1,47 @@
+@import "../utils/vars";
+
+.footer {
+  background-color: $effective-solutions-background;
+  padding: 60px 0px;
+
+  &__ul {
+    display: flex;
+  }
+
+  &__li:nth-child(1) {
+    margin-right: 70px;
+  }
+
+  &__li:nth-child(2) {
+    margin-right: 90px;
+  }
+
+  &__li:not(:nth-child(1)) {
+    padding-top: 15px;
+  }
+
+  &__contacts {
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.71;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+      color: $white;
+    }
+  }
+
+  &__text {
+    color: $white;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    line-height: 1.17;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+}
+
+.footer__our-team-scocials-link {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: $white;
+}
