@@ -3,7 +3,7 @@
 .header-contacts {
   display: flex;
 
-  &__li:not(:last-child) {
+  &__item:not(:last-child) {
     margin-right: 50px;
   }
 

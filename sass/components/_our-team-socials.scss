@@ -4,7 +4,7 @@
     display: flex;
     align-self: center;
 
-    &__li:not(:last-child) {
+    &__item:not(:last-child) {
         margin-right: 10px;
       }
     
@@ -30,13 +30,3 @@
         fill: currentColor;
       }
   }
-
-
-  
-
-
-  
-
-  
-
- 

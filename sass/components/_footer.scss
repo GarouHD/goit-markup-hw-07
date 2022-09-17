@@ -8,15 +8,15 @@
     display: flex;
   }
 
-  &__li:nth-child(1) {
+  &__item:nth-child(1) {
     margin-right: 70px;
   }
 
-  &__li:nth-child(2) {
+  &__item:nth-child(2) {
     margin-right: 90px;
   }
 
-  &__li:not(:nth-child(1)) {
+  &__item:not(:nth-child(1)) {
     padding-top: 15px;
   }
 

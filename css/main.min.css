@@ -3,10 +3,10 @@
   display: flex;
   justify-content: center;
 }
-.benefits__li {
+.benefits__item {
   flex-basis: 270px;
 }
-.benefits__li:not(:last-child) {
+.benefits__item:not(:last-child) {
   margin-right: 30px;
 }
 .benefits__text {
@@ -40,7 +40,7 @@
 .header-contacts {
   display: flex;
 }
-.header-contacts__li:not(:last-child) {
+.header-contacts__item:not(:last-child) {
   margin-right: 50px;
 }
 .header-contacts__link {
@@ -189,7 +189,7 @@
   display: flex;
   align-self: center;
 }
-.our-team-socials__li:not(:last-child) {
+.our-team-socials__item:not(:last-child) {
   margin-right: 10px;
 }
 .our-team-socials__link {
@@ -248,13 +248,13 @@
 .footer__ul {
   display: flex;
 }
-.footer__li:nth-child(1) {
+.footer__item:nth-child(1) {
   margin-right: 70px;
 }
-.footer__li:nth-child(2) {
+.footer__item:nth-child(2) {
   margin-right: 90px;
 }
-.footer__li:not(:nth-child(1)) {
+.footer__item:not(:nth-child(1)) {
   padding-top: 15px;
 }
 .footer__contacts {
@@ -290,7 +290,6 @@
   align-items: center;
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  margin-right: 30px;
   width: 200px;
   font-weight: 700;
   font-size: 16px;
@@ -315,7 +314,7 @@
   display: block;
 }
 .sub__input {
-  width: 358px;
+  width: 375px;
   margin-right: 12px;
   padding: 15px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -346,7 +345,7 @@
 .customer__link:hover .customer__icon, .customer__link:focus .customer__icon {
   fill: #2196f3;
 }
-.customer__li:not(:last-child) {
+.customer__item:not(:last-child) {
   margin-right: 30px;
 }
 .customer__icon {
@@ -532,7 +531,7 @@
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   outline: none;
 }
-.filter__li:not(:last-child) {
+.filter__item:not(:last-child) {
   margin-right: 8px;
 }
 

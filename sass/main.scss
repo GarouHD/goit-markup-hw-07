@@ -1,20 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
 
-@import './components/benefits';
-@import './components/container';
-@import './components/header-contacts';
+@import './sections/benefits';
+@import './base/container';
+@import './sections/header-contacts';
 @import './components/header';
 @import './components/logo';
 @import './components/nav-bar';
 @import './components/nav';
-@import './components/our-team';
-@import './components/section';
-@import './components/wwd';
+@import './sections/our-team';
+@import './base/section';
+@import './sections/wwd';
 @import './components/our-team-socials.scss';
-@import './components/efs';
+@import './sections/efs';
 @import './components/footer';
-@import './components/form';
-@import './components/customer';
+@import './components/sub';
+@import './sections/customer';
 @import './components/backdrop';
 @import './components/is-hidden';
 @import './components/modal';
@@ -24,7 +24,7 @@
 @import './components/current-button';
 @import './components/current-page';
 @import './components/grid';
-@import './components/product-card';
+@import './sections/product-card';
 
 
 
